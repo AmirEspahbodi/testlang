@@ -1,0 +1,32 @@
+def find(A: list, x: num): num
+{
+  var i: num;
+  var j: num;
+  var n: num;
+  var k: num;
+  j++;
+  i--;
+  --j;
+  ++j;
+  #j;
+  i = 0;
+  for (n in A)  {
+#  while(1==1){
+    if (n == k)
+      return i;
+    i = i + 1;
+  }
+  return -1;
+}
+def main(): num
+{
+  var A: list;
+  var a: num;
+  var i: num;
+  A = makelist(3);
+  A[0] = 3;
+  A[1] = 8;
+  A[2] = 5;
+  numprint(find(A, a));
+  return 0;
+} 
